@@ -22,7 +22,7 @@
         div.innerHTML = '<div>standalone <a href="https://https://github.com/davidfig/pixi-viewport">pixi-viewport</a>: viewport.drag().pinch().decelerate()</div>'
         document.body.appendChild(div)
 
-        const viewport = app.stage.addChild(new pixi_viewport.Viewport({ screenWidth: app.view.offsetWidth, screenHeight: app.view.offsetHeight }))
+        const viewport = app.stage.addChild(new _ggallon_pixi_viewport.Viewport({ screenWidth: app.view.offsetWidth, screenHeight: app.view.offsetHeight }))
         for (let i = 0; i < 10000; i++) {
             const sprite = viewport.addChild(new PIXI.Sprite(PIXI.Texture.WHITE))
             sprite.tint = rand(0xffffff)

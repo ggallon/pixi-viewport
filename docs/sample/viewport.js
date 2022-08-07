@@ -16,7 +16,7 @@ let viewport
 export function create(renderer) {
     // create the viewport
     // viewport = new Viewport({    // use with modern build toolchain
-    viewport = new pixi_viewport.Viewport({
+    viewport = new _ggallon_pixi_viewport.Viewport({
         // screenWidth: window.innerWidth,              // screen width used by viewport (eg, size of canvas)
         // screenHeight: window.innerHeight,            // screen height used by viewport (eg, size of canvas)
         worldWidth: WORLD_WIDTH,                        // world width used by viewport (automatically calculated based on container width)

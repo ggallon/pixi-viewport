@@ -71,7 +71,7 @@ or [grab the latest release](https://github.com/davidfig/pixi-viewport/releases/
 <script src="/directory-to-file/viewport.min.js"></script>
 <!-- or <script type="module" src="/directory-to-file/esm/viewport.es.js"></script> -->
 <script>
-    const Viewport = new pixi_viewport.Viewport(options)
+    const Viewport = new _ggallon_pixi_viewport.Viewport(options)
 </script>
 ```
 

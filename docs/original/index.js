@@ -56081,10 +56081,10 @@
 
   (function (module, exports) {
   	/*!
-  	 * pixi-viewport - v4.34.4
-  	 * Compiled Sun, 07 Aug 2022 13:56:57 UTC
+  	 * @ggallon/pixi-viewport - v4.4.0
+  	 * Compiled Sun, 07 Aug 2022 15:17:01 UTC
   	 *
-  	 * pixi-viewport is licensed under the MIT License.
+  	 * @ggallon/pixi-viewport is licensed under the MIT License.
   	 * http://www.opensource.org/licenses/mit-license
   	 * 
   	 * Copyright 2019-2020, David Figatner, All Rights Reserved
@@ -61747,7 +61747,7 @@
   	    Object.defineProperty(exports, '__esModule', { value: true });
 
   	}));
-  	if (typeof pixi_viewport !== 'undefined') { Object.assign(commonjsGlobal$3.PIXI, pixi_viewport); }
+  	if (typeof _ggallon_pixi_viewport !== 'undefined') { Object.assign(commonjsGlobal$3.PIXI, _ggallon_pixi_viewport); }
   	
   } (viewport_min, viewport_min.exports));
 
