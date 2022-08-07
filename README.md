@@ -21,11 +21,11 @@ With your support, I can make pixi-viewport even better! Please consider making 
 ## Simple Example
 ```js
 import * as PIXI from 'pixi.js'
-import { Viewport } from 'pixi-viewport'
+import { Viewport } from '@ggallon/pixi-viewport'
 
 // or with require
 // const PIXI = require('pixi.js')
-// const Viewport = require('pixi-viewport').Viewport
+// const Viewport = require('@ggallon/pixi-viewport').Viewport
 
 const app = new PIXI.Application()
 document.body.appendChild(app.view)
@@ -90,11 +90,11 @@ You can see the live demos at [https://davidfig.github.io/pixi-viewport/builds/]
 ## Migration from pixi-viewport v3 to v4
 Viewport needs to be imported or required as follows:
 ```js
-import { Viewport } from 'pixi-viewport'
+import { Viewport } from '@ggallon/pixi-viewport'
 
 // or
 
-const Viewport = require('pixi-viewport').Viewport
+const Viewport = require('@ggallon/pixi-viewport').Viewport
 ```
 Plugins have been moved to their own object:
 ```js
