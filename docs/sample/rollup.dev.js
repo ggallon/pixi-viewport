@@ -12,11 +12,6 @@ export default {
             preferBuiltins: false,
             browser: true
         }),
-        commonjs({
-            namedExports: {
-                'resource-loader': ['Resource']
-            }
-        }),
         globals(),
         serve('docs'),
     ],
