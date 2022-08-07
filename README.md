@@ -127,6 +127,10 @@ viewport.plugins.add('name', plugin, index)
 
 PRs are more than welcome!
 
+## v4.40.0
+Fork and rename to @ggallon/pixi-viewport
+* Update depndencies
+
 ## v4.30.0+
 This project was migrated to Typescript (thanks [@sukantpal](https://github.com/SukantPal)!). All functionality should be the same. The live Example has been updated.
 
